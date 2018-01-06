@@ -10,21 +10,11 @@ import React, {
 import {
   Platform,
   StyleSheet,
-  Text,
-  View,
   NavigatorIOS,
 } from 'react-native';
+import SearchPage from './SearchPage';
 
 
-//SearchPage component
-class SearchPage extends Component < {} > {
-  render() {
-    return <Text style = {
-      styles.description
-    } > Search
-    for houses to buy! < /Text>;
-  };
-}
 
 //Construct a navigation controller, set the initial route to the SearchPage component
 export default class App extends Component < {} > {
